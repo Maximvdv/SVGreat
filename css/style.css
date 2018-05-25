@@ -262,7 +262,10 @@ a.pure-button-primary {
         margin-right: 7px;
     }
 
-
+.bgcolor1{
+    background-color: #2d55aa;
+    color: white;
+}
 
 /* This is the class used for the dark-background areas. */
 .ribbon {
@@ -409,10 +412,11 @@ a.pure-button-primary {
     }
 }
 
+.contentexport{
+    text-align: center;
+}
 @media (max-width: 30em) {
-    #contentexport{
-        text-align: center;
-    }
+
 
     .robot {
         transform: scale(.3);
