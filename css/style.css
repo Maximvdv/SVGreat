@@ -434,6 +434,6 @@ a.pure-button-primary {
     .content-bottompadding{
         padding: 0;
         padding-bottom: 5.8em;
-        padding-top: 11.5em;
+        margin-top: 11.5em;
     }
 }
