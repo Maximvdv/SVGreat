@@ -135,80 +135,12 @@
 
                                 .drawcanvas .st0,
                                 .drawcanvas .st1 {
-                                    -webkit-animation: draw 5000ms ease-in-out infinite; /* Safari 4+ */
-                                    -moz-animation: draw 5000ms ease-in-out infinite; /* Fx 5+ */
-                                    -o-animation: draw 5000ms ease-in-out infinite; /* Opera 12+ */
-                                    animation: draw 5000ms ease-in-out infinite;
+                                    -webkit-animation: draw 4000ms ease-in-out infinite alternate-reverse; /* Safari 4+ */
+                                    -moz-animation: draw 4000ms ease-in-out infinite alternate-reverse; /* Fx 5+ */
+                                    -o-animation: draw 4000ms ease-in-out infinite alternate-reverse; /* Opera 12+ */
+                                    animation: draw 4000ms ease-in-out infinite alternate-reverse;
                                     stroke: #1D1D1B;
-                                }
 
-                                @-webkit-keyframes draw {
-                                    0% {
-                                        stroke-dasharray: 0 800;
-                                        stroke-dashoffset: 200;
-                                        fill-opacity: 0;
-                                        stroke-width: 4;
-                                    }
-                                    37% {
-                                        stroke-dasharray: 600 0;
-                                        stroke-dashoffset: 200;
-                                        fill-opacity: 0;
-                                        stroke-width: 4;
-                                    }
-                                    50% {
-                                        fill-opacity: 1;
-                                        stroke-width: 0;
-                                    }
-                                    100% {
-                                        fill-opacity: 1;
-                                        stroke-width: 0;
-                                    }
-                                }
-
-                                @-moz-keyframes draw {
-                                    0% {
-                                        stroke-dasharray: 0 800;
-                                        stroke-dashoffset: 200;
-                                        fill-opacity: 0;
-                                        stroke-width: 4;
-                                    }
-                                    37% {
-                                        stroke-dasharray: 600 0;
-                                        stroke-dashoffset: 200;
-                                        fill-opacity: 0;
-                                        stroke-width: 4;
-                                    }
-                                    50% {
-                                        fill-opacity: 1;
-                                        stroke-width: 0;
-                                    }
-                                    100% {
-                                        fill-opacity: 1;
-                                        stroke-width: 0;
-                                    }
-                                }
-
-                                @-o-keyframes draw {
-                                    0% {
-                                        stroke-dasharray: 0 800;
-                                        stroke-dashoffset: 200;
-                                        fill-opacity: 0;
-                                        stroke-width: 4;
-                                    }
-                                    37% {
-                                        stroke-dasharray: 600 0;
-                                        stroke-dashoffset: 200;
-                                        fill-opacity: 0;
-                                        stroke-width: 4;
-                                    }
-                                    50% {
-                                        fill-opacity: 1;
-                                        stroke-width: 0;
-                                    }
-                                    100% {
-                                        fill-opacity: 1;
-                                        stroke-width: 0;
-                                    }
                                 }
 
                                 @keyframes draw {
@@ -218,13 +150,14 @@
                                         fill-opacity: 0;
                                         stroke-width: 4;
                                     }
-                                    37% {
+                                    50% {
                                         stroke-dasharray: 600 0;
                                         stroke-dashoffset: 200;
                                         fill-opacity: 0;
                                         stroke-width: 4;
                                     }
-                                    50% {
+
+                                    60% {
                                         fill-opacity: 1;
                                         stroke-width: 0;
                                     }
