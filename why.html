@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-
+    <link href="css/prism.css" rel="stylesheet"/>
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>
 
 </head>
@@ -179,16 +179,19 @@
         <h2 class="content-head is-center">Introduction</h2>
 
         <div class="pure-g">
-            <div class="pure-u-1 pure-u-md-1 pure-u-lg-2-5">
+            <div class="pure-u-1 pure-u-md-1 pure-u-lg-2-5 barleft">
                 <p>
-                    In a world of modern technology, responsiveness is a key feature.<br> We need to customize everything
+                    In a world of modern technology, responsiveness is a key feature.<br> We need to customize
+                    everything
                     for a various number of devices so our users can benefit from an optimal user experience every time.<br>
                     While doing that, we also want to keep our file sizes down for performance. <br>
 
-                    <br> With the implementation of <b>SVG</b>, you can keep your website pixel-perfect at all resolutions while having small file sizes and still be able to edit and modify your website.
+                    <br> With the implementation of <b>SVG</b>, you can keep your website pixel-perfect at all
+                    resolutions while having small file sizes and still be able to edit and modify your website with its
+                    own unique touch.
                 </p>
             </div>
-            <div class="r-box pure-u-1 pure-u-md-1 pure-u-lg-1-5" id="cat1">
+            <div class="r-box pure-u-1 pure-u-md-1 pure-u-lg-2-5">
                 <h3 class="content-subhead">
                     Properties
                 </h3>
@@ -197,7 +200,7 @@
                     <li><span>Resolution independant</span></li>
                     <li><span>Easy to edit</span></li>
                     <li><span>Ideal for custom animations</span></li>
-                    <li><span>Works with CSS and Javascript</span></li>
+                    <li><span>Compatible with CSS and Javascript</span></li>
                     <li><span>Highly compressible</span></li>
                 </ul>
 
@@ -206,122 +209,92 @@
         </div>
     </div>
 
-    <div class="ribbon l-box-lrg pure-g">
-        <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5" data-aos="fade-right">
-            <svg id="tandwiel" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 936.32 793.64">
-                <defs>
-                    <style>.klas1 {
-                        fill: #4d565e;
-                    }
+    <div class="content lesspaddingtop">
+        <h2 class="content-head content-head-ribbon colortitle">So, how do you get an SVG image?</h2>
 
-                    .klas1, .klas10, .klas2, .klas3, .klas5, .klas8, .klas9 {
-                        fill-rule: evenodd;
-                    }
+        <div class="pure-g">
+            <div class="pure-u-1 pure-u-md-1 pure-u-lg-1-5 barleft">
+                <p>
+                    SVG images are formed by either raw code or edited with a specific software. There are a number of
+                    different programs that will allow you to create your own graphic designs.
+                    <br>
+                    <br>
+                    When exported you will be able to choose between a format in raw code or as a .svg file extension.
+                    This will allow you to use the scalable image in its entire format or edit in the code if you need
+                    specific actions to be performed.
+                    <br><br> The output will be something like this.
+                </p>
+            </div>
+            <div class="r-box pure-u-1 pure-u-md-1 pure-u-lg-2-5 limitheight">
+                <h3 class="content-subhead">
+                    Code
+                </h3>
 
-                    .klas2 {
-                        fill: #343b42;
-                    }
+                <!--SVG code plakken - Find and replace < door &lt       en > door $gt -->
+                <pre><code class="language-markup">&ltsvg xmlns="http://www.w3.org/2000/svg"
+                                                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                        viewBox="0 0 527.67 480.38"&gt&ltdefs&gt&ltstyle&gt.Klasse1 {
+                    fill: url(#LogoGradient);
+                }&lt/style&gt&ltlinearGradient id="LogoGradient" x1="241.92" y1="356.95" x2="750.06" y2="356.95"
+                                         gradientTransform="translate(10 43)" gradientUnits="userSpaceOnUse"&gt&ltstop
+                        offset="0" stop-color="#3f2d87"/&gt&ltstop offset="0.12" stop-color="#5d2d87"/&gt&ltstop offset="0.17"
+                                                                                                         stop-color="#4b2d87"/&gt&ltstop
+                        offset="0.43" stop-color="#9b2b87"/&gt&ltstop offset="0.48" stop-color="#aa2b87"/&gt&ltstop offset="1"
+                                                                                                            stop-color="#d51317"/&gt&lt/linearGradient&gt&lt/defs&gt&lttitle&gtFavicon S&lt/title&gt&ltg
+                        id="SVGreat_black" data-name="SVGreat black"&gt&ltpath
+                        d="M702.66,150h4.83q10.68,0,28.47,16.52l2.29,2.29h2.29l-2.29,9.41,2.29,28.47q-3.82,37.88-25.93,37.87H700.37q-92.52,0-231.57,63.81v4.57h2.29q171.83,14.25,189.12,47.28,16.51,9.67,16.52,33.3-6.36,77.79-18.81,77.79a464.07,464.07,0,0,1-118.2,63.8q-97.36,33.3-267.16,75.75l-2.29-2.29V606l16.52-6.86v-4.83l-25.93,4.83v-2.54q0-5.34,11.7-7.12v-4.58h-7.12V580.1h4.83v-2.28L256,573l2.29-2.29v-7.12q-9.39,0-9.4-7.12l-2.29,2.29H241.8v-2.29l2.29-2.28v-2.29h-4.58q0-4.83-7.12-4.83v-2.29q0-11.94,191.42-66.35,127.09-44,146.67-59-201.08-13.21-201.07-42.7Q345.77,361.5,345.77,332q0-27.19,28.47-63.81Q547.09,150,702.66,150Zm-423,420.7V573h4.83V570.7Z"
+                        transform="translate(-232.39 -150)"/&gt&ltpath
+                        d="M702.66,150h4.83q10.68,0,28.47,16.52l2.29,2.29h2.29l-2.29,9.41,2.29,28.47q-3.82,37.88-25.93,37.87H700.37q-92.52,0-231.57,63.81v4.57h2.29q171.83,14.25,189.12,47.28,16.51,9.67,16.52,33.3-6.36,77.79-18.81,77.79a464.07,464.07,0,0,1-118.2,63.8q-97.36,33.3-267.16,75.75l-2.29-2.29V606l16.52-6.86v-4.83l-25.93,4.83v-2.54q0-5.34,11.7-7.12v-4.58h-7.12V580.1h4.83v-2.28L256,573l2.29-2.29v-7.12q-9.39,0-9.4-7.12l-2.29,2.29H241.8v-2.29l2.29-2.28v-2.29h-4.58q0-4.83-7.12-4.83v-2.29q0-11.94,191.42-66.35,127.09-44,146.67-59-201.08-13.21-201.07-42.7Q345.77,361.5,345.77,332q0-27.19,28.47-63.81Q547.09,150,702.66,150Zm-423,420.7V573h4.83V570.7Z"
+                        transform="translate(-232.39 -150)"/&gt&lt/g&gt&ltg id="SVGreat_colour" data-name="SVGreat colour"&gt&ltpath
+                        d="M722.18,169.52H727q10.68,0,28.47,16.53l2.29,2.28h2.29l-2.29,9.41,2.29,28.47q-3.81,37.88-25.93,37.87H719.9q-92.53,0-231.58,63.81v4.57h2.29q171.82,14.25,189.12,47.28,16.53,9.67,16.53,33.3-6.36,77.79-18.82,77.79a463.73,463.73,0,0,1-118.2,63.8q-97.36,33.3-267.16,75.75l-2.29-2.28v-2.55l16.52-6.86v-4.83l-25.92,4.83v-2.54q0-5.34,11.69-7.12v-4.57H285v-4.83h4.83v-2.29l-14.23-4.83,2.28-2.29V583.1q-9.39,0-9.4-7.11l-2.29,2.28h-4.83V576l2.29-2.29v-2.29H259q0-4.83-7.11-4.83v-2.29q0-11.94,191.41-66.34Q570.42,454,590,439q-201.08-13.2-201.07-42.7Q365.29,381,365.29,351.53q0-27.19,28.47-63.81Q566.61,169.52,722.18,169.52Zm-423,420.7v2.29H304v-2.29Z"
+                        transform="translate(-232.39 -150)"/&gt&ltpath class="Klasse1"
+                                                                   d="M722.18,169.52H727q10.68,0,28.47,16.53l2.29,2.28h2.29l-2.29,9.41,2.29,28.47q-3.81,37.88-25.93,37.87H719.9q-92.53,0-231.58,63.81v4.57h2.29q171.82,14.25,189.12,47.28,16.53,9.67,16.53,33.3-6.36,77.79-18.82,77.79a463.73,463.73,0,0,1-118.2,63.8q-97.36,33.3-267.16,75.75l-2.29-2.28v-2.55l16.52-6.86v-4.83l-25.92,4.83v-2.54q0-5.34,11.69-7.12v-4.57H285v-4.83h4.83v-2.29l-14.23-4.83,2.28-2.29V583.1q-9.39,0-9.4-7.11l-2.29,2.28h-4.83V576l2.29-2.29v-2.29H259q0-4.83-7.11-4.83v-2.29q0-11.94,191.41-66.34Q570.42,454,590,439q-201.08-13.2-201.07-42.7Q365.29,381,365.29,351.53q0-27.19,28.47-63.81Q566.61,169.52,722.18,169.52Zm-423,420.7v2.29H304v-2.29Z"
+                                                                   transform="translate(-232.39 -150)"/&gt&lt/g&gt&lt/svg&gt</code></pre>
+            </div>
 
-                    .klas3, .klas4 {
-                        fill: #e6e6e6;
-                    }
+            <div class="r-box pure-u-1 pure-u-md-1 pure-u-lg-1-5">
+                <h3 class="content-subhead">
+                    Output
+                </h3>
+                <svg class="logoSexample" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                     viewBox="0 0 527.67 480.38">
+                    <defs>
+                        <style>.slogo1 {
+                            fill: url(#LogoGradient);
+                        }
 
-                    .klas5 {
-                        fill: #4381ef;
-                    }
-
-                    .klas6 {
-                        fill: gray;
-                    }
-
-                    .klas7 {
-                        fill: #f77b55;
-                    }
-
-                    .klas8 {
-                        fill: #fff;
-                    }
-
-                    .klas9 {
-                        fill: #363f48;
-                    }
-
-                    .klas10 {
-                        fill: #e6e5e5;
-                    }
-                    </style>
-                </defs>
-                <title>computer coding</title>
-                <g id="Computer">
-                    <g id="Laptop">
-                        <path class="klas1"
-                              d="M394.82,485H978.87a21.67,21.67,0,0,1,21.59,21.81V905.75H373V506.81A21.85,21.85,0,0,1,394.82,485Z"
-                              transform="translate(-163.2 -215.12)"/>
-                        <path class="klas2"
-                              d="M276,978.73h821.67c2.23,0,1.78-1.79-.9-3.79l-88.31-67.86c-2.68-2.22-6.9-3.78-9.14-3.78h-625c-2.23,0-6.45,1.56-9.12,3.78L276.9,974.94c-2.68,2-3.12,3.79-.89,3.79Z"
-                              transform="translate(-163.2 -215.12)"/>
-                        <path class="klas1"
-                              d="M279.12,973.83h815.45c6,0,6.67,5.12,1.33,11.34l-11.12,12.46c-5.57,6.24-14.91,11.13-21.14,11.13H310.05c-6.23,0-15.58-4.89-21.14-11.13l-11.13-12.46c-5.33-6.22-4.89-11.34,1.34-11.34Z"
-                              transform="translate(-163.2 -215.12)"/>
-                        <polygon class="klas3"
-                                 points="459.67 725.78 494.16 725.78 553.11 725.78 587.61 725.78 606.97 746.92 533.76 746.92 513.52 746.92 440.32 746.92 459.67 725.78"/>
-                        <rect class="klas4" x="229.61" y="297.03" width="588.06" height="372.23"/>
+                        .logoSexample{
+                            width: 100%;
+                            margin: 0 auto;
+                            margin-top: 5em;
+                        }</style>
+                        <linearGradient id="LogoGradient" x1="241.92" y1="356.95" x2="750.06" y2="356.95"
+                                        gradientTransform="translate(10 43)" gradientUnits="userSpaceOnUse">
+                            <stop offset="0" stop-color="#3f2d87"/>
+                            <stop offset="0.12" stop-color="#5d2d87"/>
+                            <stop offset="0.17" stop-color="#4b2d87"/>
+                            <stop offset="0.43" stop-color="#9b2b87"/>
+                            <stop offset="0.48" stop-color="#aa2b87"/>
+                            <stop offset="1" stop-color="#d51317"/>
+                        </linearGradient>
+                    </defs>
+                    <title>Favicon S</title>
+                    <g id="SVGreat_black" data-name="SVGreat black">
+                        <path d="M702.66,150h4.83q10.68,0,28.47,16.52l2.29,2.29h2.29l-2.29,9.41,2.29,28.47q-3.82,37.88-25.93,37.87H700.37q-92.52,0-231.57,63.81v4.57h2.29q171.83,14.25,189.12,47.28,16.51,9.67,16.52,33.3-6.36,77.79-18.81,77.79a464.07,464.07,0,0,1-118.2,63.8q-97.36,33.3-267.16,75.75l-2.29-2.29V606l16.52-6.86v-4.83l-25.93,4.83v-2.54q0-5.34,11.7-7.12v-4.58h-7.12V580.1h4.83v-2.28L256,573l2.29-2.29v-7.12q-9.39,0-9.4-7.12l-2.29,2.29H241.8v-2.29l2.29-2.28v-2.29h-4.58q0-4.83-7.12-4.83v-2.29q0-11.94,191.42-66.35,127.09-44,146.67-59-201.08-13.21-201.07-42.7Q345.77,361.5,345.77,332q0-27.19,28.47-63.81Q547.09,150,702.66,150Zm-423,420.7V573h4.83V570.7Z"
+                              transform="translate(-232.39 -150)"/>
+                        <path d="M702.66,150h4.83q10.68,0,28.47,16.52l2.29,2.29h2.29l-2.29,9.41,2.29,28.47q-3.82,37.88-25.93,37.87H700.37q-92.52,0-231.57,63.81v4.57h2.29q171.83,14.25,189.12,47.28,16.51,9.67,16.52,33.3-6.36,77.79-18.81,77.79a464.07,464.07,0,0,1-118.2,63.8q-97.36,33.3-267.16,75.75l-2.29-2.29V606l16.52-6.86v-4.83l-25.93,4.83v-2.54q0-5.34,11.7-7.12v-4.58h-7.12V580.1h4.83v-2.28L256,573l2.29-2.29v-7.12q-9.39,0-9.4-7.12l-2.29,2.29H241.8v-2.29l2.29-2.28v-2.29h-4.58q0-4.83-7.12-4.83v-2.29q0-11.94,191.42-66.35,127.09-44,146.67-59-201.08-13.21-201.07-42.7Q345.77,361.5,345.77,332q0-27.19,28.47-63.81Q547.09,150,702.66,150Zm-423,420.7V573h4.83V570.7Z"
+                              transform="translate(-232.39 -150)"/>
                     </g>
-                    <path class="klas5"
-                          d="M288,891.51c68.75,0,124.82-56.07,124.82-124.83S356.77,641.87,288,641.87,163.2,697.94,163.2,766.68,219.27,891.51,288,891.51Z"
-                          transform="translate(-163.2 -215.12)"/>
-                    <g id="Codes">
-                        <rect class="klas6" x="270.55" y="367.78" width="324.62" height="18.47"/>
-                        <rect class="klas6" x="459.9" y="404.05" width="192.46" height="15.79"/>
-                        <rect class="klas6" x="281.89" y="437.42" width="192.24" height="15.8"/>
-                        <rect class="klas6" x="281.89" y="507.29" width="192.24" height="15.8"/>
-                        <rect class="klas6" x="281.89" y="535.1" width="192.24" height="16.02"/>
-                        <rect class="klas7" x="490.82" y="535.1" width="60.74" height="16.02"/>
-                        <rect class="klas6" x="572.7" y="535.1" width="60.74" height="16.02"/>
-                        <rect class="klas6" x="495.94" y="508.18" width="137.5" height="15.8"/>
-                        <rect class="klas6" x="517.08" y="437.42" width="103.68" height="15.8"/>
-                        <rect class="klas6" x="295.47" y="404.05" width="55.62" height="15.79"/>
-                        <rect class="klas7" x="375.12" y="404.05" width="55.62" height="15.79"/>
-                        <rect class="klas7" x="630.55" y="367.78" width="49.62" height="18.47"/>
-                        <rect class="klas6" x="281.89" y="574.26" width="61.41" height="15.8"/>
-                        <rect class="klas7" x="363.78" y="574.26" width="61.41" height="15.8"/>
-                        <rect class="klas6" x="452.11" y="574.26" width="99.45" height="15.8"/>
+                    <g id="SVGreat_colour" data-name="SVGreat colour">
+                        <path d="M722.18,169.52H727q10.68,0,28.47,16.53l2.29,2.28h2.29l-2.29,9.41,2.29,28.47q-3.81,37.88-25.93,37.87H719.9q-92.53,0-231.58,63.81v4.57h2.29q171.82,14.25,189.12,47.28,16.53,9.67,16.53,33.3-6.36,77.79-18.82,77.79a463.73,463.73,0,0,1-118.2,63.8q-97.36,33.3-267.16,75.75l-2.29-2.28v-2.55l16.52-6.86v-4.83l-25.92,4.83v-2.54q0-5.34,11.69-7.12v-4.57H285v-4.83h4.83v-2.29l-14.23-4.83,2.28-2.29V583.1q-9.39,0-9.4-7.11l-2.29,2.28h-4.83V576l2.29-2.29v-2.29H259q0-4.83-7.11-4.83v-2.29q0-11.94,191.41-66.34Q570.42,454,590,439q-201.08-13.2-201.07-42.7Q365.29,381,365.29,351.53q0-27.19,28.47-63.81Q566.61,169.52,722.18,169.52Zm-423,420.7v2.29H304v-2.29Z"
+                              transform="translate(-232.39 -150)"/>
+                        <path class="slogo1"
+                              d="M722.18,169.52H727q10.68,0,28.47,16.53l2.29,2.28h2.29l-2.29,9.41,2.29,28.47q-3.81,37.88-25.93,37.87H719.9q-92.53,0-231.58,63.81v4.57h2.29q171.82,14.25,189.12,47.28,16.53,9.67,16.53,33.3-6.36,77.79-18.82,77.79a463.73,463.73,0,0,1-118.2,63.8q-97.36,33.3-267.16,75.75l-2.29-2.28v-2.55l16.52-6.86v-4.83l-25.92,4.83v-2.54q0-5.34,11.69-7.12v-4.57H285v-4.83h4.83v-2.29l-14.23-4.83,2.28-2.29V583.1q-9.39,0-9.4-7.11l-2.29,2.28h-4.83V576l2.29-2.29v-2.29H259q0-4.83-7.11-4.83v-2.29q0-11.94,191.41-66.34Q570.42,454,590,439q-201.08-13.2-201.07-42.7Q365.29,381,365.29,351.53q0-27.19,28.47-63.81Q566.61,169.52,722.18,169.52Zm-423,420.7v2.29H304v-2.29Z"
+                              transform="translate(-232.39 -150)"/>
                     </g>
-                    <path class="klas8"
-                          d="M202.93,771.81v-10l57.62-24.47V748l-45.61,18.68,45.61,19.14V796.5Zm64.29,39.37,25.37-89.88h8.68l-25.36,89.88Zm98.12-39.37-57.4,24.69V785.82l45.39-19.14L307.94,748V737.32l57.4,24.47Z"
-                          transform="translate(-163.2 -215.12)"/>
-                </g>
-                <g id="Tandwiel_klein" data-name="Tandwiel klein">
-                    <path class="klas3"
-                          d="M398.15,359.07a55.77,55.77,0,0,1,17.14,14.25l21.36-7.79,12,33.15-21.36,7.79a47.31,47.31,0,0,1-.89,11.12,53,53,0,0,1-2.89,10.68L440.87,443l-22.68,26.93-17.36-14.47A56,56,0,0,1,379.91,463l-4,22.25-34.49-6,3.78-22.47a56.08,56.08,0,0,1-17.13-14.24l-21.14,7.79-12.24-33.16,21.37-7.78a63.81,63.81,0,0,1,.89-11.12,53.21,53.21,0,0,1,3.12-10.69l-17.59-14.68L325.18,346l17.35,14.68a55.63,55.63,0,0,1,20.92-7.78l4-22.26,34.71,6Z"
-                          transform="translate(-163.2 -215.12)"/>
-                    <path class="klas9"
-                          d="M374.8,390.67a17.5,17.5,0,0,1-6,34.49,17.51,17.51,0,1,1,6-34.49Zm2.89-16.91A34.67,34.67,0,1,1,337.64,402a34.64,34.64,0,0,1,40.05-28.25Z"
-                          transform="translate(-163.2 -215.12)"/>
-                </g>
-                <g id="Tandwiel_groot" data-name="Tandwiel groot">
-                    <path class="klas10"
-                          d="M632.22,286.1A81.62,81.62,0,0,1,643.12,317l32.72,6.24-9.58,50.5-32.71-6a88.86,88.86,0,0,1-9.34,13.35,81.38,81.38,0,0,1-11.78,11.35l10.89,31.37L574.6,441l-10.91-31.37a79.64,79.64,0,0,1-32-6l-21.8,25.15-39.16-33.6L492.5,370a81.72,81.72,0,0,1-10.9-30.93l-32.72-6,9.58-50.72,32.7,6A90.34,90.34,0,0,1,500.5,275a83,83,0,0,1,12-11.35L501.4,232.25l48.72-17.13L561,246.49a85.38,85.38,0,0,1,32.25,6l21.58-25.14L654,261Z"
-                          transform="translate(-163.2 -215.12)"/>
-                    <path class="klas9"
-                          d="M579.27,308.57a25.71,25.71,0,1,1-36.49,2.67,25.72,25.72,0,0,1,36.49-2.67Zm16.24-18.91A50.73,50.73,0,1,1,523.87,295a50.7,50.7,0,0,1,71.64-5.34Z"
-                          transform="translate(-163.2 -215.12)"/>
-                </g>
-            </svg>
-        </div>
-        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5" id="contentexport">
+                </svg>
+            </div>
 
-            <h2 class="content-head content-head-ribbon">Easy to export in files or code</h2>
-
-            <p>
-                SVG is usable in file-format or as raw code. <br>
-                Designers can access the file to edit or improve their work. <br>
-                Developers can use the raw code to create complex animations for various web applications. <br>
-            </p>
-            <p>
-                <br>
-                Start developing your websites to its full potential, without losing performance.
-            </p>
         </div>
     </div>
 
@@ -776,6 +749,7 @@
 
 <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 <script src="javascript/script.js"></script>
+<script src="javascript/prism.js"></script>
 </body>
 </html>
 

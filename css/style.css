@@ -58,6 +58,16 @@ label {
     border-top: 5px solid #1f8dd6;
 }
 
+.barleft{
+    border-left: 10px solid #1f8dd6;
+    padding-left: 20px;
+    background-color: #eeeeee;
+    padding-right: 1em;
+    color: #556263;
+}
+
+
+
 #cat2{
     border-top: 5px solid deeppink;
 }
@@ -264,6 +274,10 @@ li span { position: relative; left: 15px; }
     color: white;
 }
 
+.colortitle{
+    color: #34495e;
+}
+
 #section3{
     color: #1f8dd6;
 }
@@ -458,3 +472,6 @@ li span { position: relative; left: 15px; }
         position: relative;
     }
 }
+
+
+
