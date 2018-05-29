@@ -44,6 +44,10 @@ label {
     text-align: center;
 }
 
+.r-box{
+    margin: 0 auto;
+}
+
 .l-box:hover{
     box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.15);
     transition: box-shadow 0.1s ease-in-out;
@@ -175,6 +179,11 @@ a.pure-button-primary {
     position: fixed !important;
 }
 
+.splash-container-no-scroll{
+    margin-top: 7em;
+    position: relative;
+}
+
 .splash {
     /* absolute center .splash within .splash-container */
     width: 80%;
@@ -215,11 +224,20 @@ a.pure-button-primary {
     margin-top: 5%;
 }
 
+.listleft{
+    text-align: left;
+}
+
+li span { position: relative; left: 15px; }
+
 /* We want to give the content area some more padding */
 .content {
     padding: 3em;
 }
 
+.lesspaddingtop{
+    padding-top: 0em;
+}
 .content-bottompadding{
     padding: 0em;
     padding-bottom: 10em;
@@ -434,5 +452,9 @@ a.pure-button-primary {
         padding: 0;
         padding-bottom: 5.8em;
         margin-top: 11.5em;
+    }
+
+    .splash-container-no-scroll{
+        position: relative;
     }
 }
