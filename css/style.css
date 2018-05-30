@@ -449,6 +449,14 @@ li span { position: relative; left: 15px; }
     width: 100%;
 }
 
+.centerp{
+    text-align: left;
+    padding: 8px;
+    background-color: #1f8dd6;
+    color: white;
+    border-radius: 5px;
+}
+
 .contentexport{
     text-align: center;
 }
