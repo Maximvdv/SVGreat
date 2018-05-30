@@ -445,6 +445,9 @@ li span { position: relative; left: 15px; }
     }
 }
 
+.exampleimg{
+    width: 100%;
+}
 
 .contentexport{
     text-align: center;
