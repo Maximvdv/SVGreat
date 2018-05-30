@@ -67,5 +67,5 @@ var changeSvgStyle = function() {
 $(".arrowdown").click(function() {
     $('html,body').animate({
             scrollTop: $(".content-wrapper").offset().top},
-        'slow');
+        1500);
 });
