@@ -62,3 +62,10 @@ var changeSvgStyle = function() {
         element.setAttribute('style', 'stroke:' + anotherRandomColor + ';stroke-width: ' + randomStrokeWidth + ';');
     })
 };
+
+
+$(".arrowdown").click(function() {
+    $('html,body').animate({
+            scrollTop: $(".content-wrapper").offset().top},
+        'slow');
+});
