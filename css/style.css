@@ -460,6 +460,11 @@ li span { position: relative; left: 15px; }
 .contentexport{
     text-align: center;
 }
+
+#disqus_thread{
+    width: 80%;
+    margin: 0 auto;
+}
 @media (max-width: 30em) {
 
 
@@ -492,6 +497,10 @@ li span { position: relative; left: 15px; }
 
     .splash-container-no-scroll{
         position: relative;
+    }
+
+    #disqus_thread{
+        margin-top: 3em;
     }
 }
 
