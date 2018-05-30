@@ -48,3 +48,17 @@ $(function () { // wait for document ready
 
 });
 
+var svg = document.getElementById('svg-animation-example');
+var changeSvgStyleButton = window.document.getElementById('change-svg-style-button');
+
+var changeSvgStyle = function() {
+    var randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
+    var anotherRandomColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
+    var randomStrokeWidth = Math.floor(Math.random() * 8) + 1;
+    [].forEach.call(svg.querySelectorAll('.svg-line-drawing .stroke'), function (element) {
+        element.setAttribute('style', 'stroke:' + randomColor + ';stroke-width: ' + randomStrokeWidth + ';');
+    });
+    [].forEach.call(svg.querySelectorAll('.svg-line-drawing .stroke-alt'), function (element) {
+        element.setAttribute('style', 'stroke:' + anotherRandomColor + ';stroke-width: ' + randomStrokeWidth + ';');
+    })
+};

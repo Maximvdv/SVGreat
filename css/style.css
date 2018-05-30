@@ -86,7 +86,9 @@ label {
 }
 
 
-
+.nopaddingtop{
+    padding-top: 0em;
+}
 
 
 /*
@@ -443,6 +445,7 @@ li span { position: relative; left: 15px; }
     }
 }
 
+
 .contentexport{
     text-align: center;
 }
@@ -462,6 +465,14 @@ li span { position: relative; left: 15px; }
         min-height: 30em;
     }
 
+    #lastboxwhy{
+        padding: 0em;
+        padding-bottom: 13em;
+    }
+
+    #scalebox{
+        min-height: 55em;
+    }
     .content-bottompadding{
         padding: 0;
         padding-bottom: 5.8em;
