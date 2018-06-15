@@ -496,7 +496,6 @@ li span { position: relative; left: 15px; }
     }
     .content-bottompadding{
         padding: 0;
-        padding-bottom: 5.8em;
         margin-top: 11.5em;
     }
 
@@ -507,6 +506,17 @@ li span { position: relative; left: 15px; }
     #disqus_thread{
         margin-top: 3em;
     }
+
+    #potlood{
+        z-index: 99999;
+    }
+}
+
+@media  (min-width: 80em){
+    .movetop {
+        top: 0;
+    }
+
 }
 
 
